@@ -4,7 +4,7 @@ import re
 
 class AiCodeReviewer:
     def __init__(self):
-        self.key = "AIzaSyBoVVSFQwC4SufIFg-i1Gcl9CRybKQup_Y" 
+        self.key = "YOUR_API_KEY" 
 
     def chatbot(self, system_instruction: str = None):
         try:
